@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from bot_commands import *
 
 app = ApplicationBuilder().token(
-    "5909466705:AAGNDNYvd1Mdz0RtmbufWyS5vm-02ne9uMc").build()
+    "Запрещено публиковать, требование телеграм").build()
 
 app.add_handler(CommandHandler("start", start))
 data = requests.get('https://www.cbr-xml-daily.ru/daily_json.js').json()
